@@ -223,7 +223,7 @@
               </div>
               <button
                 class="button"
-                @click="handleSubmit"
+                @click="handleSubmitsignup"
                 :disabled="!formData.name"
               >
                 Complete Sign Up
@@ -370,7 +370,7 @@
               </div>
             </div>
   
-            <button @click="handleSignIn" class="signin-btn">Sign Up</button>
+            <button @click="handleSubmitsignup" class="signin-btn">Sign Up</button>
           </div>
         </div>
       </div>
@@ -412,7 +412,10 @@
   </template>
   
   <script setup>
-  
+
+  import { useRouter } from "vue-router";
+  const router = useRouter();
+
   import {
     Zap,
     Shield,
@@ -443,6 +446,10 @@
   };
   const closePopupoffer= ()=>{
     isVisibleoffer.value =false
+  }
+  const handleSubmitsignup = ()=>{
+    isVisible.value = false;
+    router.push("/Mandi-Purchase-Detail")
   }
   const features = [
     {
@@ -603,12 +610,7 @@
   const handleNext = () => {
     if (step.value < 2) step.value++;
   };
-  
-  const handleSubmit = () => {
-    console.log("Form submitted:", formData.value);
-  
-    step.value = 1; // Reset step for next time
-  };
+
   const typewriterText = "Transform Your Business with NEOTAILY";
       let index = 0;
   

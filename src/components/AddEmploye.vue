@@ -419,7 +419,7 @@ async function confirmSubmission() {
     console.log(formData)
     
     const response = await axios.post(
-      "https://j-k-managment-backend.onrender.com/Employe/AddEmployee",
+      "http://localhost:3000/Employe/AddEmployee",
       formData,
       {
         headers: {
