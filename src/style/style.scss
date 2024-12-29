@@ -1,0 +1,45 @@
+// Primary Colors
+$primary-orange: #FB9678;
+$primary-orange-light: #fbe9e4;
+$primary-orange-dark: #e7521b;
+
+// Secondary Colors
+$secondary-blue: #4D7CFE;
+$secondary-blue-light: #E0E7FF;
+$secondary-blue-dark: #2642A0;
+
+// Neutral Colors
+$white: #FFFFFF;
+$black: #000000;
+$Black2: #1b1a1a;
+$light-gray: #F8F9FA;
+$medium-gray: #E9ECEF;
+$dark-gray: #343A40;
+
+// Text Colors
+$text-primary: $dark-gray;
+$text-secondary: #6C757D;
+$text-light: $white;
+$text-black: $Black2;
+$text-secondary-color: $secondary-blue-dark; // Using secondary blue for text highlights
+
+// Functional Colors
+$success: #28A745;
+$warning: #FFC107;
+$danger: #DC3545;
+$info: #17A2B8;
+
+// Background Colors
+$bg-light: $light-gray;
+$bg-white: $white;
+$bg-secondary: $secondary-blue-light; // Background using secondary color
+
+// Border Colors
+$border-color: #DEE2E6;
+
+// Shadow
+$box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+// Font
+$font-family: 'Poppins', sans-serif;
+$font-secondary-color: $secondary-blue;
