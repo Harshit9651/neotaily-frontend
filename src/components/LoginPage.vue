@@ -6,7 +6,7 @@
           <div class="login-wrapper">
             <div class="login">Log in</div>
             <div class="paragraph">
-              Just Login to access <span>ShriVinayk.in</span>
+              Just Login to access <span>NEOTAILY.in</span>
             </div>
           </div>
           <div class="login-options">
